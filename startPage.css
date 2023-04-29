@@ -1,0 +1,96 @@
+.heropic {
+    margin-top: 30px;
+    width: 89%; 
+    border-radius: 3%;
+  }
+  .title {
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    border-width: 1em;
+    height:10%;
+    width: 10%;
+    margin: auto;
+    border-radius: 100%;
+    padding: 30px;
+  }
+
+  .title:hover {
+    font-family: 'Noto Sans Display', sans-serif;
+    color: #FF7628;
+  }
+  h3 {
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: left;
+    font-size: 1.5em;
+  }
+  p {
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: left;
+    font-size: 1em;
+  }
+  button {
+    font-family: 'Noto Sans Display', sans-serif;
+  
+  }
+  
+  .menu {
+    text-align: center ;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    border-width: 1rem;
+    margin-bottom: 20px;
+  }
+a {
+    text-decoration: none;
+    color: white;
+}
+  .selectionbtn {
+    background-color: #FF7628;
+    color: white;
+    height: 2rem; 
+    width: 6rem;
+    border-radius: 10px;
+    border: none;
+
+    font-size:x-large;
+  }
+  .selectionbtn:hover{
+    background-color: black;
+
+  }
+  .quantity {
+    display: inline-block; 
+    position: relative;
+    left: 20%;
+    bottom: 60px;
+    font-size:x-large;
+    
+  
+  }
+  /* item box for visualisation */
+  .item1box {
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+    height:120px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .item2box {
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+    height:120px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    padding: 5px;
+  
+    
+  }
+  /* Menu and other UI */
+  .menu {
+      margin: 50px;
+    }

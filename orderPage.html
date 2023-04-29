@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canteen Ordering</title>
+    <link rel="stylesheet" type="text/css" href="orderPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Alumni+Sans&family=Noto+Sans+Display&family=Sacramento&family=Saira&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <div class="total-border">
+    <div class="menu" id="menu">     
+      <img class="heropic" src="startImg.jpg"> 
+      <h1 class="title">Zeedy</h1>
+      <div class="style"></div>
+      <div class="style"></div>
+      <div class="item1box">
+        <h3>Dosa</h3>
+        <p>₹40</p>
+        <div class="quantity">
+          <button class="incDecButton" onclick="decrease('dosa')">-</button>
+          <span  class="numberbw" id="dosa-quantity">0</span>
+          <button class="incDecButton" onclick="increase('dosa')">+</button>
+        </div>
+      </div>
+      <div class="item2box">
+        <h3>Idly</h3>
+        <p>₹30</p>
+        <div class="quantity">
+          <button class="incDecButton" onclick="decrease('idly')">-</button>
+          <span  class="numberbw" id="idly-quantity">0</span>
+          <button class="incDecButton" onclick="increase('idly')">+</button>
+        </div>
+      </div>
+      <div class="item3box">
+        <h3>Samosa</h3>
+        <p>₹20</p>
+        <div class="quantity">
+          <button class="incDecButton" onclick="decrease('samosa')">-</button>
+          <span class="numberbw" id="samosa-quantity">0</span>
+          <button class="incDecButton" onclick="increase('samosa')">+</button>
+        </div>   
+      </div>
+      <div class="item4box">
+        <h3>Momo</h3>
+        <p>₹40</p>
+        <div class="quantity">
+          <button class="incDecButton" onclick="decrease('momo')">-</button>
+          <span  class="numberbw" id="momo-quantity">0</span>
+          <button class="incDecButton" onclick="increase('momo')">+</button>
+        </div>   
+      </div>
+         <button class="atc" onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+    <div class="cart" style="display:none">
+      <h1><span class="arrow"></span>Cart</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Total:</td>
+            <td id="total-price"></td>
+          </tr>
+        </tfoot>
+      </table>
+      <button class="checkout" onclick="checkout()">Checkout</button>
+    
+    <script src="script.js"></script>
+    </div>
+  </body>
+</html>

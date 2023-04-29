@@ -1,0 +1,180 @@
+.heropic {
+  margin-top: 30px;
+  width: 89%; 
+  border-radius: 3%;
+}
+tfoot, table {
+  padding: 10px
+}
+.title {
+  font-family: 'Noto Sans Display', sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  height:15%;
+  width: auto;
+  display:inline-block;
+  margin: auto;
+  padding: 30px;
+}
+.style{
+  height:20px; 
+  width: 15%;
+  display: inline-block;
+}
+.title:hover {
+  font-family: 'Noto Sans Display', sans-serif;
+  color: #FF7628;
+}
+h3 {
+  font-family: 'Noto Sans Display', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+}
+p {
+  font-family: 'Noto Sans Display', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+}
+button {
+  font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+.menu {
+  text-align: center ;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50px;
+  border-width: 1rem;
+  margin-bottom: 20px;
+}
+.incDecButton {
+  background-color: #FF7628;
+  color: white;
+  height: 2rem; 
+  width: 2rem;
+  border-radius: 30%;
+  border: none;
+  position: relative;
+  font-size:x-large;
+}
+.atc {
+  background-color: #FF7628;
+  color: white; 
+  padding: 15px;
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1.5em;
+}
+.incDecButton:hover, .atc:hover {
+background-color: black;
+color: white;
+
+}
+.quantity {
+  display: inline-block; 
+  position: relative;
+  left: 20%;
+  bottom: 60px;
+  font-size:x-large;
+  
+
+}
+/* item box for visualisation */
+.item1box {
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  height:120px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.item2box {
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  height:120px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+.item3box {
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  height:120px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+.item4box {
+  border-style: solid;
+  border-radius: 10px;
+  width: 50%;
+  height:120px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  padding: 5px;
+
+  
+}
+/* Menu and other UI */
+.menu {
+    margin: 50px;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+  .cart {
+    margin: 50px;
+    font-size: 2.5em;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead th {
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+  tbody td, tfoot td {
+    border-bottom: 1px solid lightgray;
+  }
+  tfoot td {
+    text-align: right;
+  }
+  .checkout {
+    margin-top: 10px;
+  }
+.cart, .th , .td{
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1.5em;
+  padding: 10px; 
+}
+
+.checkout {
+  background-color: #FF7628;
+  color: white; 
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1em;
+}
+.checkout:hover {
+  background-color: black;
+}
+.arrow:hover {
+  color:#FF7628; 
+}
+arrow {
+  padding: 10px;
+}
