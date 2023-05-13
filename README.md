@@ -6,4 +6,4 @@ https://www.canva.com/design/DAFhdLYW0Ec/u4PqdSNKLQH0ZaXhsg6FCQ/edit?utm_content
 
 
 -----------------
-The live link can be found [here]([url](https://theharshithh.github.io/Blhackathon/))
+The live link can be found [here](https://theharshithh.github.io/Blhackathon/)
